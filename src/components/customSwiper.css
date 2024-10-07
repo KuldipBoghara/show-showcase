@@ -1,0 +1,20 @@
+/* customSwiper.css */
+
+/* Hide the buttons by default, only for this component */
+.collection-swiper .swiper-button-next,
+.collection-swiper .swiper-button-prev {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Show buttons on hover, only for this component */
+.collection-swiper.group:hover .swiper-button-next,
+.collection-swiper.group:hover .swiper-button-prev {
+  opacity: 1;
+}
+
+/* Custom arrow color, only for this component */
+.collection-swiper .swiper-button-next,
+.collection-swiper .swiper-button-prev {
+  color: gray; /* Set to grey */
+}

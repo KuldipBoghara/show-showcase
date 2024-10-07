@@ -33,7 +33,6 @@ import CollectionOverview from './components/CollectionOverview';
 import FeaturedCarousel from './components/FeaturedCarousel';
 import ProductDetails from './components/ProductDetails';
 import Reviews from './components/Reviews';
-import Customizer from './components/Customizer';
 import Footer from './components/Footer';
 
 const App = () => {
@@ -64,7 +63,6 @@ const App = () => {
       <FeaturedCarousel shoes={shoes} />
       <ProductDetails shoes={shoes} />
       <Reviews />
-      <Customizer />
       <Footer />
     </div>
   );

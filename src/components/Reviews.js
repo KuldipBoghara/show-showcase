@@ -52,7 +52,7 @@ const Reviews = () => {
           1024: { slidesPerView: 3 } // For desktops, show 3 reviews
         }}
         loop={true}
-        autoplay={{ delay: 5000 }}
+        autoplay={{ delay: 1000 }}
         pagination={{ clickable: true }}
         navigation
       >
